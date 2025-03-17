@@ -12,7 +12,7 @@ Function testlogin {
   
     if (!$passswordlist) {
       Write-Host "Usage: adbruteforce <userlist.txt> <AD domain> <passwordlist.txt>"
-      Write-Host "Example: adbruteforce users.txt addomain.com passwords.txt`n"
+      Write-Host "Example: adbruteforce users.txt addomain.com passwords.txt"
       return
     }
   
