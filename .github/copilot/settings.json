@@ -1,1 +1,16 @@
-null
+{
+  "extraKnownMarketplaces": {
+    "agent-kit": {
+      "source": {
+        "source": "github",
+        "repo": "stschulznz/agent-kit"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "agent-workflow@agent-kit": true,
+    "writing@agent-kit": true,
+    "agents@agent-kit": true
+  }
+}
